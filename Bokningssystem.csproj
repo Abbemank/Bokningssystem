@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookingList.cs" />
+    <Compile Include="BookingTime.cs" />
+    <Compile Include="Building.cs" />
+    <Compile Include="Ec1.cs" />
+    <Compile Include="Ec2.cs" />
+    <Compile Include="Ec3.cs" />
+    <Compile Include="GroupRoom.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
